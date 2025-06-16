@@ -1,0 +1,4 @@
+/Windir/Users/disco/personal/gravity_simulator/build/CMakeFiles/glad_cfile.dir
+/Windir/Users/disco/personal/gravity_simulator/build/CMakeFiles/GL_abstraction.dir
+/Windir/Users/disco/personal/gravity_simulator/build/CMakeFiles/edit_cache.dir
+/Windir/Users/disco/personal/gravity_simulator/build/CMakeFiles/rebuild_cache.dir

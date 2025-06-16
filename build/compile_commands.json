@@ -1,0 +1,110 @@
+[
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/cc  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -g -o CMakeFiles/glad_cfile.dir/glad/src/glad.c.o -c /Windir/Users/disco/personal/gravity_simulator/glad/src/glad.c",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/glad/src/glad.c",
+  "output": "CMakeFiles/glad_cfile.dir/glad/src/glad.c.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/main.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/main.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/main.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/main.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/framework/src/buffer.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/framework/src/buffer.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/framework/src/buffer.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/framework/src/buffer.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/framework/src/camera.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/framework/src/camera.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/framework/src/camera.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/framework/src/camera.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/framework/src/input.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/framework/src/input.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/framework/src/input.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/framework/src/input.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/framework/src/shader.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/framework/src/shader.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/framework/src/shader.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/framework/src/shader.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/framework/src/texture.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/framework/src/texture.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/framework/src/texture.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/framework/src/texture.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/framework/src/transformations.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/framework/src/transformations.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/framework/src/transformations.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/framework/src/transformations.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/framework/src/window.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/framework/src/window.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/framework/src/window.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/framework/src/window.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/object.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/src/object.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/src/object.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/object.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/shapes.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/src/shapes.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/src/shapes.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/shapes.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/imgui-master/backends/imgui_impl_glfw.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/imgui-master/backends/imgui_impl_glfw.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/imgui-master/backends/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/imgui-master/backends/imgui_impl_opengl3.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/imgui-master/backends/imgui_impl_opengl3.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/imgui-master/backends/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/imgui-master/imgui.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/imgui-master/imgui.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/imgui-master/imgui_demo.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui_demo.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui_demo.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/imgui-master/imgui_demo.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/imgui-master/imgui_draw.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui_draw.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui_draw.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/imgui-master/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/imgui-master/imgui_tables.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui_tables.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui_tables.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/imgui-master/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/gravity_simulator/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/gravity_simulator/framework/res -I/Windir/Users/disco/personal/gravity_simulator/res -I/Windir/Users/disco/personal/gravity_simulator/glad/include -I/Windir/Users/disco/personal/gravity_simulator/imgui-master -I/Windir/Users/disco/personal/gravity_simulator/imgui-master/backends -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/imgui-master/imgui_widgets.cpp.o -c /Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui_widgets.cpp",
+  "file": "/Windir/Users/disco/personal/gravity_simulator/imgui-master/imgui_widgets.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/imgui-master/imgui_widgets.cpp.o"
+}
+]

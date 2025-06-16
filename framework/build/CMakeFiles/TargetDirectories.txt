@@ -1,0 +1,4 @@
+/Windir/Users/disco/personal/framework/build/CMakeFiles/glad_cfile.dir
+/Windir/Users/disco/personal/framework/build/CMakeFiles/GL_abstraction.dir
+/Windir/Users/disco/personal/framework/build/CMakeFiles/edit_cache.dir
+/Windir/Users/disco/personal/framework/build/CMakeFiles/rebuild_cache.dir

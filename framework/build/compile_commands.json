@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/cc  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -o CMakeFiles/glad_cfile.dir/glad/src/glad.c.o -c /Windir/Users/disco/personal/framework/glad/src/glad.c",
+  "file": "/Windir/Users/disco/personal/framework/glad/src/glad.c",
+  "output": "CMakeFiles/glad_cfile.dir/glad/src/glad.c.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/main.cpp.o -c /Windir/Users/disco/personal/framework/main.cpp",
+  "file": "/Windir/Users/disco/personal/framework/main.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/main.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/buffer.cpp.o -c /Windir/Users/disco/personal/framework/src/buffer.cpp",
+  "file": "/Windir/Users/disco/personal/framework/src/buffer.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/camera.cpp.o -c /Windir/Users/disco/personal/framework/src/camera.cpp",
+  "file": "/Windir/Users/disco/personal/framework/src/camera.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/camera.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/input.cpp.o -c /Windir/Users/disco/personal/framework/src/input.cpp",
+  "file": "/Windir/Users/disco/personal/framework/src/input.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/input.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/shader.cpp.o -c /Windir/Users/disco/personal/framework/src/shader.cpp",
+  "file": "/Windir/Users/disco/personal/framework/src/shader.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/texture.cpp.o -c /Windir/Users/disco/personal/framework/src/texture.cpp",
+  "file": "/Windir/Users/disco/personal/framework/src/texture.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/texture.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/transformations.cpp.o -c /Windir/Users/disco/personal/framework/src/transformations.cpp",
+  "file": "/Windir/Users/disco/personal/framework/src/transformations.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/transformations.cpp.o"
+},
+{
+  "directory": "/Windir/Users/disco/personal/framework/build",
+  "command": "/usr/bin/c++  -I/Windir/Users/disco/personal/framework/res -I/Windir/Users/disco/personal/framework/glad/include -g -std=gnu++11 -o CMakeFiles/GL_abstraction.dir/src/window.cpp.o -c /Windir/Users/disco/personal/framework/src/window.cpp",
+  "file": "/Windir/Users/disco/personal/framework/src/window.cpp",
+  "output": "CMakeFiles/GL_abstraction.dir/src/window.cpp.o"
+}
+]

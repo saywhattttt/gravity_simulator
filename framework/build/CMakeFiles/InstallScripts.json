@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Windir/Users/disco/personal/framework/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
