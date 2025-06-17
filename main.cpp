@@ -46,6 +46,7 @@ int sectorCount = 32;
 int stackCount = 32;
 bool PausedTime = false;
 float frameCap = 60.0f;
+bool rewind_t = false;
 
 void collision(std::vector<entity>& obj_vec){
     // Border collision
@@ -123,9 +124,10 @@ void addObj (GLFWwindow* window, glm::vec3& position, glm::vec3& cameraFront, un
 
         temp_obj.sectorCount = sectorCount;
         temp_obj.stackCount = stackCount;
+        usr_added.push_back(temp_obj);
 
         entity test_entity;
-        usr_added.push_back(temp_obj);
+        test_entity.fixed = false;
         test_entity.theObject = &usr_added[usr_added.size() - 1];
         cameraFront = glm::normalize(cameraFront);
         test_entity.velocity = cameraFront * next_velo; 
@@ -155,6 +157,7 @@ void imguiHandle(std::vector<entity>& obj_vec, std::vector<Object>& usr_added, f
         }
     }
     ImGui::Checkbox("Pause Time", &PausedTime);
+    ImGui::Checkbox("Rewind Time", &rewind_t);
     ImGui::Checkbox("Border Collisions", &borderCollisions);
     ImGui::Checkbox("Object Collisions", &objectCollisions);
     ImGui::End();
@@ -299,7 +302,11 @@ int main(){
     
 while (!glfwWindowShouldClose(windowOBJ.window)){
     float time = glfwGetTime();
-    deltaTime = (time - lastFrame);
+    if(rewind_t){
+        deltaTime = (time - lastFrame) * time_speed * -1.0f;
+    } else {
+        deltaTime = (time - lastFrame) * time_speed * 1.0f;
+    }
     lastFrame = time;
     
     if (PausedTime){deltaTime = 0.0f;}
