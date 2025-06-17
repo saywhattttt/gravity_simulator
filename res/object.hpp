@@ -33,6 +33,7 @@ struct entity{
     glm::vec3 velocity;
     glm::vec3 acceleration;
     double mass;
+    bool fixed;
 };
 
 class ObjectC{

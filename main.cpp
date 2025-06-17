@@ -181,6 +181,7 @@ void imguiHandle(std::vector<entity>& obj_vec, std::vector<Object>& usr_added, f
             if (ImGui::InputText("Name", name_buf, sizeof(name_buf))) {
                 obj->Name = name_buf;
             }
+            ImGui::Checkbox("Fixed", &ent.fixed);
             ImGui::InputFloat3("Position", glm::value_ptr(obj->position));
             ImGui::InputFloat3("Velocity", glm::value_ptr(ent.velocity));
             ImGui::InputFloat3("Scale", glm::value_ptr(obj->scale));
@@ -257,6 +258,7 @@ int main(){
     my_entity.acceleration = glm::vec3(0.0f, 0.0f, 0.0f);
     // my_entity.mass = 5.97 * pow(10, 24);
     my_entity.mass = 3000.0f;
+    my_entity.fixed = false;
 
     entity my_entity2;
     my_entity2.theObject = &my_obj2;
@@ -264,6 +266,7 @@ int main(){
     my_entity2.acceleration = glm::vec3(0.0f, 0.0f, 0.0f);
     // my_entity2.mass = 7.34 * pow(10, 22);
     my_entity2.mass = 3000.0f;
+    my_entity2.fixed = false;
 
     std::vector<entity> obj_vec;
     std::vector<Object> usr_added;          // added so obj_vec does not have a null pointer

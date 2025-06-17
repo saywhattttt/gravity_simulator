@@ -24,6 +24,7 @@ void ObjectC::drawObj(Object& draw_obj){
 }
 
 void ObjectC::updateEntity(entity& to_set_entity, float time){
+    if (to_set_entity.fixed) {return;}
     to_set_entity.velocity += to_set_entity.acceleration * time;
     to_set_entity.theObject->position += to_set_entity.velocity * time;
 }
