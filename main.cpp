@@ -89,7 +89,9 @@ void collision(std::vector<entity>& obj_vec){
             float minDist = obj_vec[i].theObject->radius + obj_vec[j].theObject->radius;
             if (objectCollisions){
                 if (dist < minDist) {
-                    std::swap(obj_vec[i].velocity, obj_vec[j].velocity);
+                    if (obj_vec[i].fixed || obj_vec[j].fixed){
+                        std::swap(obj_vec[i].velocity, obj_vec[j].velocity);
+                    }
                     glm::vec3 norm = glm::normalize(dir);
                     float overlap = 0.5f * (minDist - dist);
                     obj_vec[i].theObject->position -= overlap * norm;
@@ -144,7 +146,6 @@ void imguiHandle(std::vector<entity>& obj_vec, std::vector<Object>& usr_added, f
     ImGui::Text("Object count: %zu", obj_vec.size());
     ImGui::InputFloat("Time speed", &time_speed);
     ImGui::InputFloat("Frame Cap", &frameCap);
-    ImGui::InputFloat("Camera Speed", &camOBJ.cameraSpeed_usr);
     ImGui::InputFloat("Gravity", &G);
     ImGui::InputFloat("Box Size", &square_border);
     if (ImGui::Button("Delete All")) {
@@ -187,6 +188,7 @@ void imguiHandle(std::vector<entity>& obj_vec, std::vector<Object>& usr_added, f
             ImGui::Checkbox("Fixed", &ent.fixed);
             ImGui::InputFloat3("Position", glm::value_ptr(obj->position));
             ImGui::InputFloat3("Velocity", glm::value_ptr(ent.velocity));
+            ImGui::InputFloat3("Accleration", glm::value_ptr(ent.acceleration));
             ImGui::InputFloat3("Scale", glm::value_ptr(obj->scale));
             ImGui::InputDouble("Mass", &ent.mass);
             ImGui::InputDouble("Radius", &obj->radius);
@@ -206,6 +208,12 @@ void imguiHandle(std::vector<entity>& obj_vec, std::vector<Object>& usr_added, f
             ImGui::TreePop();
         }
     }
+    ImGui::End();
+
+    ImGui::Begin("Camera Controls");
+    ImGui::InputFloat("Camera Speed", &camOBJ.cameraSpeed_usr);
+    ImGui::InputFloat3("Camera Position", glm::value_ptr(camOBJ.cameraPos));
+    ImGui::InputFloat3("Camera direction", glm::value_ptr(camOBJ.cameraFront));
     ImGui::End();
 }
 
