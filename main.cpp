@@ -89,16 +89,20 @@ void collision(std::vector<entity>& obj_vec){
             float minDist = obj_vec[i].theObject->radius + obj_vec[j].theObject->radius;
             if (objectCollisions){
                 if (dist < minDist) {
-                    if (obj_vec[i].fixed || obj_vec[j].fixed){
+                    if (!(obj_vec[i].fixed || obj_vec[j].fixed)){
                         std::swap(obj_vec[i].velocity, obj_vec[j].velocity);
                     }
                     glm::vec3 norm = glm::normalize(dir);
                     float overlap = 0.5f * (minDist - dist);
-                    obj_vec[i].theObject->position -= overlap * norm;
-                    obj_vec[j].theObject->position += overlap * norm;
+                    if (!obj_vec[i].fixed){
+                        obj_vec[i].theObject->position -= overlap * norm;
+                    }
+                    if (!obj_vec[j].fixed){
+                        obj_vec[j].theObject->position += overlap * norm;
+                    }
                 }
             }
-            if (dist > 0) {
+            if (dist > minDist) {
                 glm::vec3 norm = glm::normalize(dir);
                 double accel_mag = G * obj_vec[j].mass / (dist * dist);
                 total_accel += static_cast<float>(accel_mag) * norm;
